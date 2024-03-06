@@ -285,7 +285,7 @@ mv $PATH_INSTALL/$DIR/database/seeders/DatabaseSeeder.php.bk $PATH_INSTALL/$DIR/
 
 echo "configurando permisos"
 chmod -R 777 "$PATH_INSTALL/$DIR/storage/" "$PATH_INSTALL/$DIR/bootstrap/" "$PATH_INSTALL/$DIR/vendor/"
-chmod -R 777 "$PATH_INSTALL/$DIR/script/"
+echo $PATH_INSTALL/$DIR/
 
 echo "configurando Supervisor"
 docker-compose exec -T supervisor$SERVICE_NUMBER service supervisor start
