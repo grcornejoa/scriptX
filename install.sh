@@ -11,7 +11,7 @@ if [ "$HOST" = "dominio" ]; then
     exit 1
 fi
 
-PROYECT='https://github.com/grcornejoa/prox1.git'
+PROYECT='https://github.com/grcornejoa/prox.git'
 
 #RUTA DE INSTALACION (RUTA ACTUAL DEL SCRIPT)
 PATH_INSTALL=$(echo $PWD)
